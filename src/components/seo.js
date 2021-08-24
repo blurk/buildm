@@ -5,7 +5,7 @@ const keywords =
   'buildW, buildw, build website, We are build your front-end with enthusiast and reasonable prices, buildW website'
 
 export default function SEO({
-  description = 'We are build your front-end with enthusiast and reasonable prices',
+  description = 'We are a team of 2 people: 1 web developer & 1 tester. We build your front-end (landing page, personal website, blog...) with enthusiast and reasonable prices.',
   author = 'buildW',
   meta,
   title = 'buildW',
