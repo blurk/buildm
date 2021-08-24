@@ -44,7 +44,7 @@ export default function SEO({
       content: description,
     },
     {
-      name: `keyword`,
+      name: `keywords`,
       content: keywords,
     },
   ].concat(meta)
