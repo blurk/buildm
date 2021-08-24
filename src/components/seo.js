@@ -47,6 +47,11 @@ export default function SEO({
       name: `keywords`,
       content: keywords,
     },
+    {
+      name: 'google-site-verification',
+      content:
+        'google-site-verification=ECSqkkIvkeSl9j8t-u-ju-5HPiiqc61Ty2tA8B77MSI',
+    },
   ].concat(meta)
   return (
     <Head>
