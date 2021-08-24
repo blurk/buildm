@@ -1,5 +1,5 @@
 module.exports = {
-  siteUrl: 'https://startup-agency-minimal.vercel.app',
+  siteUrl: 'https://construire-duo.vercel.app/',
   generateRobotsTxt: true,
   // optional
   // robotsTxtOptions: {
@@ -9,4 +9,4 @@ module.exports = {
   //     'https://example.com/my-custom-sitemap-3.xml',
   //   ],
   // },
-};
+}
