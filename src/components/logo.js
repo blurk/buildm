@@ -10,7 +10,7 @@ export default function Logo() {
       sx={{
         variant: 'links.logo',
       }}>
-      <Image src={logo} sx={{ display: 'flex' }} alt='buildm logo' />
+      <Image src={logo} sx={{ display: 'flex' }} alt='buildW logo' />
     </Link>
   )
 }

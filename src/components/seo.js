@@ -1,11 +1,14 @@
 import React from 'react'
 import Head from 'next/head'
 
+const keywords =
+  'buildW, buildw, build website, We are build your front-end with enthusiast and reasonable prices, buildW website'
+
 export default function SEO({
   description = 'We are build your front-end with enthusiast and reasonable prices',
-  author = 'buildm',
+  author = 'buildW',
   meta,
-  title = 'buildm',
+  title = 'buildW',
 }) {
   const metaData = [
     {
@@ -39,6 +42,10 @@ export default function SEO({
     {
       name: `twitter:description`,
       content: description,
+    },
+    {
+      name: `keyword`,
+      content: keywords,
     },
   ].concat(meta)
   return (
