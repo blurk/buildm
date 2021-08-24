@@ -2,13 +2,13 @@ import React from 'react'
 import Head from 'next/head'
 
 const keywords =
-  'buildW, buildw, build website, We are build your front-end with enthusiast and reasonable prices, buildW website'
+  'construire-duo.vercel.app,construire-duo,construire-duo,build website,build landing page,build personal web site,build blog,We are build your front-end with enthusiast and reasonable prices,construire-duo-team website,construire-duo team website,construire-duo website'
 
 export default function SEO({
   description = 'We are a team of 2 people: 1 web developer & 1 tester. We build your front-end (landing page, personal website, blog...) with enthusiast and reasonable prices.',
-  author = 'buildW',
+  author = 'construire-duo team',
   meta,
-  title = 'buildW',
+  title = 'construire-duo team',
 }) {
   const metaData = [
     {
