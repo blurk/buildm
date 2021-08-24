@@ -138,6 +138,7 @@ const CheckoutForm = () => {
 
     if (payload.error) {
       setError(payload.error)
+      setProcessing(false)
     } else {
       emailjs
         .send(
@@ -152,14 +153,13 @@ const CheckoutForm = () => {
           () => {
             setPaymentMethod(payload.paymentMethod)
             console.log('Email Send')
+            setProcessing(false)
           },
           (error) => {
             console.log(error.text)
           }
         )
     }
-
-    setProcessing(false)
   }
 
   const reset = () => {
