@@ -18,7 +18,7 @@ export default function IndexPage() {
     <ThemeProvider theme={theme}>
       <StickyProvider>
         <Layout>
-          <SEO />
+          <SEO description='We are a team of 2 people: 1 web developer & 1 tester. We build your front-end (landing page, personal website, blog...) with enthusiast and reasonable prices.' />
           <Banner />
           <Services />
           <BoostAgencies />
