@@ -21,7 +21,7 @@ const SERVICES_DATA = [
 	},
 	{
 		icon: icon3,
-		title: 'SEO & Accessibility',
+		title: 'SEO',
 		text: 'Tối ưu hóa công cụ tìm kiếm và công cụ hỗ trợ'
 	},
 	{
