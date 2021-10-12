@@ -14,6 +14,7 @@ class CustomDocument extends Document {
             href='https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap'
             rel='stylesheet'
           />
+          <meta name="google-site-verification" content="sfNZwbRDcd3OgxbMomNDAn5LBHPpnxjq2K4iIwnInS4" />
         </Head>
         <body>
           <Main />
