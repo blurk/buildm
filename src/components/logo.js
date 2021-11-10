@@ -12,7 +12,7 @@ export default function Logo() {
 			}}>
 			<Image
 				src={logo}
-				sx={{ display: 'flex' }}
+				sx={{ display: 'flex', height: 25 }}
 				alt='naisu team logo'
 			/>
 		</Link>

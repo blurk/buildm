@@ -12,8 +12,7 @@ const Banner = () => {
 				<Grid sx={styles.grid}>
 					<Box sx={styles.content}>
 						<Heading as='h3'>
-							Các website tuyệt vời được xây dựng với các nhà phát triển tuyệt
-							vời
+							Chúng tôi xây dựng giao diện cho website của bạn
 						</Heading>
 						<Text as='p'>
 							Chúng tôi giúp xây dựng và quản lý một nhóm các nhà phát triển

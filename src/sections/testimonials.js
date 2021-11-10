@@ -21,7 +21,7 @@ const TESTIMONIALS_DATA = [
 	},
 	{
 		image: img2,
-		heading: 'Natalia Sanz',
+		heading: 'Miguel Sanz',
 		designation: 'Khách hàng',
 		content: 'Họ là giỏi nhất trong những người giỏi nhất.'
 	},
@@ -29,11 +29,11 @@ const TESTIMONIALS_DATA = [
 		image: img3,
 		heading: 'Ece Akman',
 		designation: 'Chuyên viên tiếp thị',
-		content: 'Tuyệt vời, tran web vô cùng chất lượng'
+		content: 'Tuyệt vời, trang web vô cùng chất lượng'
 	},
 	{
 		image: img2,
-		heading: 'Natalia Sanz',
+		heading: 'Natalia Romanoff',
 		designation: 'Khách hàng',
 		content: 'Họ cho tôi một trang web không thể tuyệt vời hơn'
 	},
