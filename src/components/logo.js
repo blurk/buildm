@@ -13,7 +13,7 @@ export default function Logo() {
 			<Image
 				src={logo}
 				sx={{ display: 'flex' }}
-				alt='construire-duo team logo'
+				alt='naisu team logo'
 			/>
 		</Link>
 	)
