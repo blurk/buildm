@@ -29,19 +29,19 @@ const TESTIMONIALS_DATA = [
 		image: img3,
 		heading: 'Ece Akman',
 		designation: 'Chuyên viên tiếp thị',
-		content: 'Tuyệt vời, trang web vô cùng chất lượng'
+		content: 'Tuyệt vời, trang web vô cùng chất lượng.'
 	},
 	{
 		image: img2,
 		heading: 'Natalia Romanoff',
 		designation: 'Khách hàng',
-		content: 'Họ cho tôi một trang web không thể tuyệt vời hơn'
+		content: 'Họ cho tôi một trang web không thể tuyệt vời hơn.'
 	},
 	{
 		image: img3,
 		heading: 'Ece Akman',
 		designation: 'Khách hàng',
-		content: 'Nhanh và vô cùng chuyên nghiệp'
+		content: 'Nhanh và vô cùng chuyên nghiệp.'
 	}
 ]
 

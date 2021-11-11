@@ -15,9 +15,7 @@ const Banner = () => {
 							Chúng tôi xây dựng giao diện cho website của bạn
 						</Heading>
 						<Text as='p'>
-							Chúng tôi giúp xây dựng và quản lý một nhóm các nhà phát triển
-							đẳng cấp thế giới để làm cho trang web cá nhân hoặc trang đích của
-							bạn trở nên sống động
+							Chúng tôi là một nhóm gồm hai người: 1 Front-end Developer và 1 Tester. Chúng tôi giúp xây dựng và quản lý một nhóm các nhà phát triển đẳng cấp thế giới để làm cho trang web cá nhân hoặc trang đích của bạn trở nên sống động
 						</Text>
 					</Box>
 					<Box sx={styles.image}>
