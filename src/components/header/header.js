@@ -24,6 +24,7 @@ export default function Header({ className }) {
 								smooth={true}
 								offset={-70}
 								duration={500}
+								href='#'
 								key={i}>
 								{label}
 							</ScrollLink>
