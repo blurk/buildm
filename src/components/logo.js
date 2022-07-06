@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx, Image } from 'theme-ui'
 import { Link } from 'components/link'
-import logo from 'assets/large-removebg-preview.svg'
+import logo from 'assets/logo.png'
 
 export default function Logo() {
 	return (
@@ -12,8 +12,8 @@ export default function Logo() {
 			}}>
 			<Image
 				src={logo}
-				sx={{ display: 'flex', height: 25 }}
-				alt='naisu team logo'
+				sx={{ display: 'flex', height: 50 }}
+				alt='bon team logo'
 			/>
 		</Link>
 	)

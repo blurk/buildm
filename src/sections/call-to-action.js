@@ -12,11 +12,16 @@ const CallToAction = () => {
 						Hãy thuê những người tốt nhất <br />
 						và chuyên nghiệp nhất
 					</Heading>
-					<Link path='/hire'>
-						<Box sx={styles.btnWrapper}>
-							<Button sx={styles.btn}>Thuê chúng tôi</Button>
-						</Box>
-					</Link>
+					<Box sx={styles.btnWrapper}>
+						<Button
+							sx={styles.btn}
+							onClick={() => {
+								window.scrollTo(0, 300)
+								window.document.querySelector('input#subscribe').focus()
+							}}>
+							Thuê chúng tôi
+						</Button>
+					</Box>
 				</Box>
 			</Container>
 		</Box>

@@ -1,5 +1,5 @@
 module.exports = {
-	siteUrl: 'https://naisu.vercel.app/',
+	siteUrl: 'https://bon-team.vercel.app/',
 	generateRobotsTxt: true
 	// optional
 	// robotsTxtOptions: {

@@ -174,7 +174,7 @@ const CheckoutForm = () => {
 	return paymentMethod ? (
 		<div className='Result'>
 			<div className='ResultTitle' role='alert'>
-				Đặt cọc thành công
+				Liên hệ thành công
 			</div>
 			<div className='ResultMessage'>
 				Cảm ơn bạn rất nhiều, chúng tôi đã gửi Email thông báo cho bạn 😄
@@ -209,7 +209,7 @@ const CheckoutForm = () => {
 			</fieldset>
 			{error && <ErrorMessage>{error.message}</ErrorMessage>}
 			<SubmitButton processing={processing} error={error} disabled={!stripe}>
-				Đặt cọc
+				Liên hệ ngay
 			</SubmitButton>
 		</form>
 	)

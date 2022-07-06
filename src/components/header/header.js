@@ -1,6 +1,5 @@
 /** @jsx jsx */
-import { jsx, Container, Flex } from 'theme-ui'
-import { Link } from 'components/link'
+import { jsx, Container, Flex, Button } from 'theme-ui'
 import { Link as ScrollLink } from 'react-scroll'
 import Logo from 'components/logo'
 
@@ -31,13 +30,16 @@ export default function Header({ className }) {
 						))}
 					</Flex>
 
-					<Link
-						path='/hire'
+					<Button
 						ml={2}
-						label='Thuê chúng tôi'
 						sx={styles.headerBtn}
 						variant='buttons.primary'
-					/>
+						onClick={() => {
+							window.scrollTo(0, 300)
+							window.document.querySelector('input#subscribe').focus()
+						}}>
+						Thuê chúng tôi
+					</Button>
 
 					<MobileDrawer />
 				</Container>

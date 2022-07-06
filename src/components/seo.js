@@ -2,13 +2,13 @@ import React from 'react'
 import Head from 'next/head'
 
 const keywords =
-	'naisu.vercel.app,naisu,naisu,build website,build landing page,build personal web site,build blog,We are build your front-end with enthusiast and reasonable prices,naisu-team website,naisu team website,naisu website, xây dựng giao diện web, tạo giao diện web, làm thuê, naisuteam, naisu tạo web, xây dựng landing page, landing page, hỗ trợ tạo landing page'
+	'bon.vercel.app,bon,bon,build website,build landing page,build personal web site,build blog,We are build your front-end with enthusiast and reasonable prices,bon-team website,bon team website,bon website, xây dựng giao diện web, tạo giao diện web, làm thuê, bonteam, bon tạo web, xây dựng landing page, landing page, hỗ trợ tạo landing page'
 
 export default function SEO({
 	description = 'Chúng tôi giúp xây dựng và quản lý một nhóm các nhà phát triển đẳng cấp thế giới để làm cho trang web cá nhân hoặc trang đích của bạn trở nên sống động.',
-	author = 'naisu team',
+	author = 'bon team',
 	meta,
-	title = 'naisu team'
+	title = 'bon team'
 }) {
 	const metaData = [
 		{
